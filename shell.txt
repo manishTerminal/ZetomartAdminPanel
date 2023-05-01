@@ -24,3 +24,6 @@ grep name - to be specific
 history | grep cat -> it will only show all cat commands i used in history.
 history - shell keep history of all command we typed in terminal
 !! - to execute last command if up arrow is broken
+
+----------
+demo function
