@@ -1,0 +1,26 @@
+echo $SHEll  - see which shell you are using
+ls
+ls -al -> see hidden files
+la -l -> see files in list format
+cd ../  - change directory
+man ls - see all commands options of ls
+---------------
+touch biodata - create file
+ls -l biodata - see file details
+mv biodata realBioData - rename file
+rm hello - delete file
+cat myfile - to view the content of any text file
+cat myfile > newFile - to redirect the output of cat to another file
+more filename - to see content and be able to scroll down with space
+less filename - to see content and be able to scroll down with arrow
+nano filename - to edit the file in terminal. if file dint present it will create the file.
+-----------------------------------------------------------------------------------------------------
+mkdir java - to make new directory
+mv java cpp - to rename the directory
+rmdir java - it wont delete the directory is its not empty.
+rm -ir java - to delete directory by sayig 'yes' as a precaution
+find / -name "*filename*" 2>dev/null  - to find the file. 2>dev/null will delete all the errors.
+grep name - to be specific
+history | grep cat -> it will only show all cat commands i used in history.
+history - shell keep history of all command we typed in terminal
+!! - to execute last command if up arrow is broken

@@ -1,0 +1,31 @@
+.add-category > select,
+input,
+option,
+select {
+   font-size: 0.9rem;
+   margin: 0.5rem 0;
+   margin-right: 0.5rem;
+   width: 11rem !important;
+   color: black;
+}
+.add-category h2{
+  margin: 0.5rem 0;
+}
+.add-category .addBtn {
+   cursor: pointer;
+   color: white !important;
+   padding: 1rem 1.5rem;
+   outline: none;
+   border: none;
+   font-size: 1.1rem;
+   background: red;
+   border-radius: 5px;
+}
+.category {
+   display: grid;
+   grid-template-columns: 2fr 2fr;
+   gap: 2rem;
+}
+.category > * {
+   max-height: 90vh;
+}

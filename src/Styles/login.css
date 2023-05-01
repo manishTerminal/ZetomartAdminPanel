@@ -1,0 +1,18 @@
+
+
+.user-admin{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-card input{
+    border: 1px solid red;
+}

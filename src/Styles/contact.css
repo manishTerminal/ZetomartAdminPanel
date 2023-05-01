@@ -1,0 +1,23 @@
+.contact-data {
+}
+.cd-detail > td {
+   border: 1px solid #8b8989;
+   border-collapse: collapse;
+   height: 2.2rem !important;
+}
+.contact-data .order_table {
+  min-height: 90vh;
+}
+.contact-data td,
+th {
+   max-width: 4rem;
+
+   text-align: center;
+   vertical-align: middle;
+   word-break: break-all;
+}
+.cd-detail .message {
+   max-width: 7rem;
+   vertical-align: left !important;
+   text-align: left;
+}
