@@ -29,3 +29,4 @@ history - shell keep history of all command we typed in terminal
 demo function
 new demo function
 analytics
+new day feature
